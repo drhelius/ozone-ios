@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Editor.csproj", "{6484514F-B618-48B9-9BE3-DED30BFFB6AF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OzoneEditorSetup", "..\OzoneEditorSetup\OzoneEditorSetup.vdproj", "{14279AAA-2D00-41C8-A134-C2C387F65B1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6484514F-B618-48B9-9BE3-DED30BFFB6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6484514F-B618-48B9-9BE3-DED30BFFB6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6484514F-B618-48B9-9BE3-DED30BFFB6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6484514F-B618-48B9-9BE3-DED30BFFB6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14279AAA-2D00-41C8-A134-C2C387F65B1A}.Debug|Any CPU.ActiveCfg = Debug
+		{14279AAA-2D00-41C8-A134-C2C387F65B1A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
