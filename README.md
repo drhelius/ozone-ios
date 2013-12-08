@@ -26,7 +26,7 @@ Credits
 --------
 - Programming: [Ignacio Sanchez](http://twitter.com/drhelius) 
 - Art: [Cesar Sampedro](http://twitter.com/cesarsampedro) 
-- Audio [David Garcia](http://twitter.com/dagadi) 
+- Audio: [David Garcia](http://twitter.com/dagadi) 
 
 License
 -------
