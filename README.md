@@ -4,7 +4,7 @@ Ozone for iOS
 
 ----------
 
-Ozone is an acclaimed iOS game released back in 2009.
+Ozone is an acclaimed iOS game released back in 2009 for iOS devices.
 
 Please, visit the official website for more information and screenshots: http://www.ozonehd.com
 
