@@ -8,8 +8,6 @@ Ozone is an acclaimed iOS game released back in 2009 for iOS devices.
 
 Please, visit the official website for more information and screenshots: http://www.ozonehd.com
 
-If you have any questions you can reach me on Twitter: http://twitter.com/drhelius
-
 ----------
 
 Downloads
@@ -24,10 +22,16 @@ Screenshots
 
 ![Screenshot](http://www.geardome.com/ozone-ipad/ozone-ipad-03p.jpg) &nbsp;  ![Screenshot](http://www.geardome.com/ozone-ipad/ozone-ipad-06p.jpg) &nbsp;  ![Screenshot](http://www.geardome.com/ozone-ipad/ozone-ipad-07p.jpg)
 
+Credits
+--------
+- Programming: [Ignacio Sanchez](http://twitter.com/drhelius) 
+- Art: [Cesar Sampedro](http://twitter.com/cesarsampedro) 
+- Audio [David Garcia](http://twitter.com/dagadi) 
+
 License
 -------
 
-<i>Gearboy - Nintendo Game Boy Emulator</i>
+<i>Ozone (iOS)</i>
 
 <i>Copyright (C) 2009 by Ignacio Sanchez, Cesar Sampedro, David Garcia</i>
 
