@@ -128,7 +128,7 @@ inline int	btGetVersion()
 #else
 	//non-windows systems
 
-#if (defined (__APPLE__) && defined (__i386__))
+#if (defined (__APPLE__) && defined (__i386__) && false)
 	#define BT_USE_SSE
 	#include <emmintrin.h>
 

@@ -26,11 +26,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PlayHaven.h"
 
 @class EAGLView;
 
-@interface OzoneAppDelegate : NSObject <UIApplicationDelegate, PHRequestDelegate> {
+@interface OzoneAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     EAGLView *glView;
 }

@@ -177,6 +177,7 @@ public:
 	/* Material		*/ 
 	struct	Material : Element
 	{
+        Material(){};
 		btScalar				m_kLST;			// Linear stiffness coefficient [0,1]
 		btScalar				m_kAST;			// Area/Angular stiffness coefficient [0,1]
 		btScalar				m_kVST;			// Volume stiffness coefficient [0,1]
@@ -191,6 +192,7 @@ public:
 	/* Node			*/ 
 	struct	Node : Feature
 	{
+        Node() {};
 		btVector3				m_x;			// Position
 		btVector3				m_q;			// Previous step position
 		btVector3				m_v;			// Velocity
@@ -204,6 +206,7 @@ public:
 	/* Link			*/ 
 	struct	Link : Feature
 	{
+        Link() {};
 		Node*					m_n[2];			// Node pointers
 		btScalar				m_rl;			// Rest length		
 		int						m_bbending:1;	// Bending link
@@ -215,6 +218,7 @@ public:
 	/* Face			*/ 
 	struct	Face : Feature
 	{
+        Face() {};
 		Node*					m_n[3];			// Node pointers
 		btVector3				m_normal;		// Normal
 		btScalar				m_ra;			// Rest area
@@ -255,6 +259,7 @@ public:
 	/* Note			*/ 
 	struct	Note : Element
 	{
+        Note() {};
 		const char*				m_text;			// Text
 		btVector3				m_offset;		// Offset
 		int						m_rank;			// Rank

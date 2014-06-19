@@ -125,7 +125,7 @@ MUSIC AudioManager::LoadMusic(const char* szMusicPath)
     {
         Log("+++ AudioManager::LoadMusic Cargando música: %s\n", szMusicPath);
 
-        NSDictionary *err;
+        NSError *err;
 
         char* ind = strrchr(szMusicPath, '/');
         char* szName = ind + 1;

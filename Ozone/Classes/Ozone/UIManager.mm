@@ -31,7 +31,6 @@
 #include "SubMenuHighScoresState.h"
 #include "SaveManager.h"
 #include "audio.h"
-#include "PlayHaven.h"
 
 //////////////////////////
 //////////////////////////
@@ -75,7 +74,6 @@ void UIManager::Update(void)
         {
 			case UI_EVENT_PLAYHAVEN:
 			{
-				[PlayHaven loadChartsWithDelegate:GameManager::Instance().GetAppDelegate() context:nil];
 				break;
 			}
 

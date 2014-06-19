@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,6 @@
 		66D8ED6D116FD8910069DF44 /* highscores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED66116FD8910069DF44 /* highscores.xib */; };
 		66D8ED6E116FD8910069DF44 /* Icono_full_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED67116FD8910069DF44 /* Icono_full_57.png */; };
 		66D8ED6F116FD8910069DF44 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED68116FD8910069DF44 /* MainWindow.xib */; };
-		66D8ED70116FD8910069DF44 /* OzoneHD-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED69116FD8910069DF44 /* OzoneHD-Info.plist */; };
 		66D8ED71116FD8910069DF44 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED6A116FD8910069DF44 /* scores.png */; };
 		66D8EFBA116FD8A50069DF44 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66D8ED74116FD8A40069DF44 /* EAGLView.mm */; };
 		66D8EFBB116FD8A50069DF44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8ED75116FD8A40069DF44 /* main.m */; };
@@ -1712,9 +1711,21 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = V3F66RFMSJ;
+					};
+				};
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OzoneHD" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1734,7 +1745,6 @@
 				66D8ED6D116FD8910069DF44 /* highscores.xib in Resources */,
 				66D8ED6E116FD8910069DF44 /* Icono_full_57.png in Resources */,
 				66D8ED6F116FD8910069DF44 /* MainWindow.xib in Resources */,
-				66D8ED70116FD8910069DF44 /* OzoneHD-Info.plist in Resources */,
 				66D8ED71116FD8910069DF44 /* scores.png in Resources */,
 				66D8F0AD116FD8DA0069DF44 /* 7x7.o3d in Resources */,
 				66D8F0B0116FD8E60069DF44 /* missing_model.png in Resources */,
@@ -2006,7 +2016,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2034,11 +2045,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
-					"--fast-math",
-					"-fno-regmove",
 					"-ftree-vectorize",
 				);
 				PRODUCT_NAME = OzoneHD;
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C875B38-E0B4-425B-8D05-6E60ADA3F745";
 			};
 			name = Debug;
@@ -2047,7 +2057,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
 				GCC_AUTO_VECTORIZATION = YES;
@@ -2079,11 +2090,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
-					"--fast-math",
-					"-fno-regmove",
 					"-ftree-vectorize",
 				);
 				PRODUCT_NAME = OzoneHD;
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C875B38-E0B4-425B-8D05-6E60ADA3F745";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2100,7 +2110,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Distribution;
@@ -2109,7 +2119,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ignacio Sánchez Ginés";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
 				GCC_AUTO_VECTORIZATION = YES;
@@ -2141,11 +2152,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
-					"--fast-math",
-					"-fno-regmove",
 					"-ftree-vectorize",
 				);
 				PRODUCT_NAME = OzoneHD;
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "329F087A-D886-403A-A2A4-09679BB17641";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2156,14 +2166,15 @@
 			buildSettings = {
 				"ARCHS[sdk=iphoneos*]" = armv7;
 				"ARCHS[sdk=iphonesimulator*]" = i386;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66B8FA59-3D8E-4AEB-9BD8-24D4FE2A005B";
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -2173,14 +2184,14 @@
 			buildSettings = {
 				"ARCHS[sdk=iphoneos*]" = armv7;
 				"ARCHS[sdk=iphonesimulator*]" = i386;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66B8FA59-3D8E-4AEB-9BD8-24D4FE2A005B";
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
