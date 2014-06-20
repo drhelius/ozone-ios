@@ -80,48 +80,32 @@ void UIManager::Update(void)
             case UI_EVENT_ENTERNAME:
             {
                 UIAlertView *prompt = [[UIAlertView alloc] initWithTitle : @"Enter your name"
-                        message : @"\n\n" // IMPORTANT
+                        message : @" "
                         delegate : GameManager::Instance().GetAppDelegate()
                         cancelButtonTitle : @"Cancel"
                         otherButtonTitles : @"OK", nil];
-
-                UITextField* textField = [[UITextField alloc] initWithFrame : CGRectMake(12.0, 50.0, 260.0, 25.0)];
-                [textField setBackgroundColor : [UIColor whiteColor]];
-                [textField setPlaceholder : @"Will be used in the scoreboard"];
-                textField.tag = 69;
-                [prompt addSubview : textField];
+                prompt.alertViewStyle = UIAlertViewStylePlainTextInput;
 
                 // set place
                 [prompt setTransform : CGAffineTransformMakeTranslation(0.0, 0.0)];
                 [prompt show];
                 [prompt release];
-
-                // set cursor and show keyboard
-                [textField becomeFirstResponder];
 
                 break;
             }
             case UI_EVENT_ASKLEVELDOWNLOAD:
             {
                 UIAlertView *prompt = [[UIAlertView alloc] initWithTitle : @"Enter Download Code"
-                        message : @"\n\n" // IMPORTANT
+                        message : @" "
                         delegate : GameManager::Instance().GetAppDelegate()
                         cancelButtonTitle : @"Cancel"
                         otherButtonTitles : @"OK", nil];
-
-                UITextField* textField = [[UITextField alloc] initWithFrame : CGRectMake(12.0, 50.0, 260.0, 25.0)];
-                [textField setBackgroundColor : [UIColor whiteColor]];
-                [textField setPlaceholder : @"Download code"];
-                textField.tag = 69;
-                [prompt addSubview : textField];
+                prompt.alertViewStyle = UIAlertViewStylePlainTextInput;
 
                 // set place
                 [prompt setTransform : CGAffineTransformMakeTranslation(0.0, 0.0)];
                 [prompt show];
                 [prompt release];
-
-                // set cursor and show keyboard
-                [textField becomeFirstResponder];
 
                 break;
             }
@@ -284,11 +268,11 @@ void UIManager::AlertViewResponse(UIAlertView* alertView, NSInteger buttonIndex)
 
         if (m_WaitingEvent == UI_EVENT_ENTERNAME)
         {
-            strncpy(text, [((UITextField*) [alertView viewWithTag : 69]).text UTF8String], 10);
+            strncpy(text, [[alertView textFieldAtIndex:0].text UTF8String], 10);
         }
         else if (m_WaitingEvent == UI_EVENT_ASKLEVELDOWNLOAD)
         {
-            strncpy(text, [((UITextField*) [alertView viewWithTag : 69]).text UTF8String], 8);
+            strncpy(text, [[alertView textFieldAtIndex:0].text UTF8String], 8);
         }
 
         m_pCallback->Execute(buttonIndex, text);
