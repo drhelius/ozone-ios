@@ -56,8 +56,6 @@
         [[UIApplication sharedApplication] setStatusBarOrientation : UIInterfaceOrientationLandscapeLeft animated : NO];
     }	
 
-	[PlayHaven preloadWithPublisherToken : @"A0l_hlD-B8YiP-Md8TplsQ" testing : NO];
-
 #endif
 
     AudioManager::Instance().Init(44100);

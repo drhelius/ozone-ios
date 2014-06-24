@@ -676,8 +676,8 @@ void SubMenuMainState::InputCallbackMenu(stInputCallbackParameter parameter, int
             }
             case 4:
             {
-                Log("--------- play haven \n");
-                UIManager::Instance().RaiseEvent(UI_EVENT_PLAYHAVEN, m_pUICallbackScore);
+                //Log("--------- play haven \n");
+                //UIManager::Instance().RaiseEvent(UI_EVENT_PLAYHAVEN, m_pUICallbackScore);
                 break;
             }
             case 3:

@@ -42,7 +42,7 @@
 #ifdef OZONE_LITE
 #define MENU_ITEMS 4
 #else
-#define MENU_ITEMS 5
+#define MENU_ITEMS 4
 #endif
 
 class SubMenuMainState : public SubMenuState, public Singleton<SubMenuMainState>
