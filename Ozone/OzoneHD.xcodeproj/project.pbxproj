@@ -15,7 +15,6 @@
 		66D8ED6B116FD8910069DF44 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED64116FD8910069DF44 /* Default-Landscape.png */; };
 		66D8ED6C116FD8910069DF44 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED65116FD8910069DF44 /* Entitlements.plist */; };
 		66D8ED6D116FD8910069DF44 /* highscores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED66116FD8910069DF44 /* highscores.xib */; };
-		66D8ED6E116FD8910069DF44 /* Icono_full_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED67116FD8910069DF44 /* Icono_full_57.png */; };
 		66D8ED6F116FD8910069DF44 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED68116FD8910069DF44 /* MainWindow.xib */; };
 		66D8ED71116FD8910069DF44 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D8ED6A116FD8910069DF44 /* scores.png */; };
 		66D8EFBA116FD8A50069DF44 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66D8ED74116FD8A40069DF44 /* EAGLView.mm */; };
@@ -273,6 +272,7 @@
 		66D8F3A2116FDBBA0069DF44 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D8F3A1116FDBBA0069DF44 /* OpenAL.framework */; };
 		66D8F3A6116FDBC40069DF44 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D8F3A5116FDBC40069DF44 /* CFNetwork.framework */; };
 		66D8F3AA116FDBCA0069DF44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D8F3A9116FDBCA0069DF44 /* CoreGraphics.framework */; };
+		66F7A3DA195798C200229CE7 /* Icono_full_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3D9195798C200229CE7 /* Icono_full_57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -286,7 +286,6 @@
 		66D8ED64116FD8910069DF44 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "ResourcesHD/Default-Landscape.png"; sourceTree = "<group>"; };
 		66D8ED65116FD8910069DF44 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = ResourcesHD/Entitlements.plist; sourceTree = "<group>"; };
 		66D8ED66116FD8910069DF44 /* highscores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = highscores.xib; path = ResourcesHD/highscores.xib; sourceTree = "<group>"; };
-		66D8ED67116FD8910069DF44 /* Icono_full_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icono_full_57.png; path = ResourcesHD/Icono_full_57.png; sourceTree = "<group>"; };
 		66D8ED68116FD8910069DF44 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ResourcesHD/MainWindow.xib; sourceTree = "<group>"; };
 		66D8ED69116FD8910069DF44 /* OzoneHD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "OzoneHD-Info.plist"; path = "ResourcesHD/OzoneHD-Info.plist"; sourceTree = "<group>"; };
 		66D8ED6A116FD8910069DF44 /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scores.png; path = ResourcesHD/scores.png; sourceTree = "<group>"; };
@@ -448,12 +447,12 @@
 		66D8EE11116FD8A40069DF44 /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
 		66D8EE12116FD8A40069DF44 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
 		66D8EE13116FD8A40069DF44 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
-		66D8EE15116FD8A40069DF44 /* neon_matrix_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = neon_matrix_impl.cpp; sourceTree = "<group>"; };
+		66D8EE15116FD8A40069DF44 /* neon_matrix_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = neon_matrix_impl.cpp; sourceTree = "<group>"; };
 		66D8EE16116FD8A40069DF44 /* neon_matrix_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neon_matrix_impl.h; sourceTree = "<group>"; };
 		66D8EE18116FD8A40069DF44 /* common_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_macros.h; sourceTree = "<group>"; };
-		66D8EE19116FD8A40069DF44 /* matrix_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix_impl.cpp; sourceTree = "<group>"; };
+		66D8EE19116FD8A40069DF44 /* matrix_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = matrix_impl.cpp; sourceTree = "<group>"; };
 		66D8EE1A116FD8A40069DF44 /* matrix_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix_impl.h; sourceTree = "<group>"; };
-		66D8EE1B116FD8A40069DF44 /* utility_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utility_impl.cpp; sourceTree = "<group>"; };
+		66D8EE1B116FD8A40069DF44 /* utility_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = utility_impl.cpp; sourceTree = "<group>"; };
 		66D8EE1C116FD8A40069DF44 /* utility_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility_impl.h; sourceTree = "<group>"; };
 		66D8EE1D116FD8A40069DF44 /* vfp_clobbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vfp_clobbers.h; sourceTree = "<group>"; };
 		66D8EE1E116FD8A40069DF44 /* mathutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathutil.h; sourceTree = "<group>"; };
@@ -866,6 +865,7 @@
 		66D8F3A1116FDBBA0069DF44 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		66D8F3A5116FDBC40069DF44 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		66D8F3A9116FDBCA0069DF44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66F7A3D9195798C200229CE7 /* Icono_full_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icono_full_57.png; path = ResourcesHD/Icono_full_57.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -926,10 +926,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				66F7A3D9195798C200229CE7 /* Icono_full_57.png */,
 				66D8ED64116FD8910069DF44 /* Default-Landscape.png */,
 				66D8ED65116FD8910069DF44 /* Entitlements.plist */,
 				66D8ED66116FD8910069DF44 /* highscores.xib */,
-				66D8ED67116FD8910069DF44 /* Icono_full_57.png */,
 				66D8ED68116FD8910069DF44 /* MainWindow.xib */,
 				66D8ED69116FD8910069DF44 /* OzoneHD-Info.plist */,
 				66D8ED6A116FD8910069DF44 /* scores.png */,
@@ -1743,8 +1743,8 @@
 				66D8ED6B116FD8910069DF44 /* Default-Landscape.png in Resources */,
 				66D8ED6C116FD8910069DF44 /* Entitlements.plist in Resources */,
 				66D8ED6D116FD8910069DF44 /* highscores.xib in Resources */,
-				66D8ED6E116FD8910069DF44 /* Icono_full_57.png in Resources */,
 				66D8ED6F116FD8910069DF44 /* MainWindow.xib in Resources */,
+				66F7A3DA195798C200229CE7 /* Icono_full_57.png in Resources */,
 				66D8ED71116FD8910069DF44 /* scores.png in Resources */,
 				66D8F0AD116FD8DA0069DF44 /* 7x7.o3d in Resources */,
 				66D8F0B0116FD8E60069DF44 /* missing_model.png in Resources */,
@@ -2016,6 +2016,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -2038,18 +2040,20 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				HEADER_SEARCH_PATHS = Classes/Ozone/physics;
 				INFOPLIST_FILE = "ResourcesHD/OzoneHD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-ftree-vectorize",
 				);
 				PRODUCT_NAME = OzoneHD;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C875B38-E0B4-425B-8D05-6E60ADA3F745";
+				PROVISIONING_PROFILE = "8BEAE199-679B-4750-8843-9C3B3CF1E21F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8BEAE199-679B-4750-8843-9C3B3CF1E21F";
+				VALID_ARCHS = "armv7s armv7 arm64";
 			};
 			name = Debug;
 		};
@@ -2057,6 +2061,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -2083,31 +2090,36 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				HEADER_SEARCH_PATHS = Classes/Ozone/physics;
 				INFOPLIST_FILE = "ResourcesHD/OzoneHD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-ftree-vectorize",
 				);
 				PRODUCT_NAME = OzoneHD;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C875B38-E0B4-425B-8D05-6E60ADA3F745";
+				PROVISIONING_PROFILE = "8BEAE199-679B-4750-8843-9C3B3CF1E21F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8BEAE199-679B-4750-8843-9C3B3CF1E21F";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7s armv7 arm64";
 			};
 			name = Release;
 		};
 		667B2B7A118D6AEB00A49955 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = armv7;
-				"ARCHS[sdk=iphonesimulator*]" = i386;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
@@ -2119,8 +2131,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ignacio Sanchez Gines (V3F66RFMSJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ignacio Sanchez Gines (V3F66RFMSJ)";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
 				GCC_AUTO_VECTORIZATION = YES;
@@ -2145,33 +2160,35 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				HEADER_SEARCH_PATHS = Classes/Ozone/physics;
 				INFOPLIST_FILE = "ResourcesHD/OzoneHD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-ftree-vectorize",
 				);
 				PRODUCT_NAME = OzoneHD;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "329F087A-D886-403A-A2A4-09679BB17641";
+				PROVISIONING_PROFILE = "95824078-5E1C-4711-BEB1-9BFB7E310733";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "95824078-5E1C-4711-BEB1-9BFB7E310733";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7s armv7 arm64";
 			};
 			name = Distribution;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = armv7;
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66B8FA59-3D8E-4AEB-9BD8-24D4FE2A005B";
 				SDKROOT = iphoneos;
@@ -2182,12 +2199,14 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = armv7;
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66B8FA59-3D8E-4AEB-9BD8-24D4FE2A005B";

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -201,9 +201,7 @@
 		66375BB41167F36700C4E7DB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66375BAD1167F36700C4E7DB /* Default.png */; };
 		66375BB51167F36700C4E7DB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66375BAE1167F36700C4E7DB /* Entitlements.plist */; };
 		66375BB61167F36700C4E7DB /* highscores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66375BAF1167F36700C4E7DB /* highscores.xib */; };
-		66375BB71167F36700C4E7DB /* Icono_full_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 66375BB01167F36700C4E7DB /* Icono_full_57.png */; };
 		66375BB81167F36700C4E7DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66375BB11167F36700C4E7DB /* MainWindow.xib */; };
-		66375BB91167F36700C4E7DB /* Ozone-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66375BB21167F36700C4E7DB /* Ozone-Info.plist */; };
 		66375BBA1167F36700C4E7DB /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 66375BB31167F36700C4E7DB /* scores.png */; };
 		664055391019246E0007BEF0 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 664055341019246E0007BEF0 /* fonts */; };
 		6640553A1019246E0007BEF0 /* game in Resources */ = {isa = PBXBuildFile; fileRef = 664055351019246E0007BEF0 /* game */; };
@@ -259,6 +257,9 @@
 		667DCD9E10FA9653008AF616 /* BossVulcanEnemy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 667DCD9A10FA9653008AF616 /* BossVulcanEnemy.mm */; };
 		668076C3101A89BF006CAA0F /* moveable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 668076C2101A89BF006CAA0F /* moveable.mm */; };
 		6690F9741028B28B002FD283 /* triggermanager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6690F9711028B28B002FD283 /* triggermanager.mm */; };
+		66C588AD19583666002F2880 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C588AA19583666002F2880 /* Default-568h@2x.png */; };
+		66C588AE19583666002F2880 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C588AB19583666002F2880 /* Default@2x.png */; };
+		66C588AF19583666002F2880 /* Icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C588AC19583666002F2880 /* Icon~iphone.png */; };
 		66CA6E6D1055C656009B544A /* submenuepisodeselectionstate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6E6B1055C656009B544A /* submenuepisodeselectionstate.mm */; };
 		66CC23D31066E112007B0537 /* scenetrigger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66CC23D11066E112007B0537 /* scenetrigger.mm */; };
 		66D144DE101B76FC00A67C4E /* physicsdebugdrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66D144DC101B76FC00A67C4E /* physicsdebugdrawer.cpp */; };
@@ -274,6 +275,13 @@
 		66D616B2103F5DFD00730A02 /* multibladeenemy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66D616A9103F5DFD00730A02 /* multibladeenemy.mm */; };
 		66DA856A1020CEA400F103EF /* episode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66DA85681020CEA400F103EF /* episode.mm */; };
 		66F05A32103DE42600A80948 /* hud.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66F05A30103DE42600A80948 /* hud.mm */; };
+		66F7A3CC1957984800229CE7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3CB1957984800229CE7 /* Icon.png */; };
+		66F7A3CE1957986000229CE7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3CD1957986000229CE7 /* Icon@2x.png */; };
+		66F7A3D41957988900229CE7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3CF1957988900229CE7 /* Icon-72.png */; };
+		66F7A3D51957988900229CE7 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3D01957988900229CE7 /* Icon-Small-50.png */; };
+		66F7A3D61957988900229CE7 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3D11957988900229CE7 /* Icon-Small.png */; };
+		66F7A3D71957988900229CE7 /* Icon@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3D21957988900229CE7 /* Icon@2x~iphone.png */; };
+		66F7A3D81957988900229CE7 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 66F7A3D31957988900229CE7 /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -735,7 +743,6 @@
 		66375BAD1167F36700C4E7DB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		66375BAE1167F36700C4E7DB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = Resources/Entitlements.plist; sourceTree = "<group>"; };
 		66375BAF1167F36700C4E7DB /* highscores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = highscores.xib; path = Resources/highscores.xib; sourceTree = "<group>"; };
-		66375BB01167F36700C4E7DB /* Icono_full_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icono_full_57.png; path = Resources/Icono_full_57.png; sourceTree = "<group>"; };
 		66375BB11167F36700C4E7DB /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
 		66375BB21167F36700C4E7DB /* Ozone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Ozone-Info.plist"; path = "Resources/Ozone-Info.plist"; sourceTree = "<group>"; };
 		66375BB31167F36700C4E7DB /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scores.png; path = Resources/scores.png; sourceTree = "<group>"; };
@@ -835,6 +842,9 @@
 		6690F9721028B28B002FD283 /* triggermanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triggermanager.h; sourceTree = "<group>"; };
 		6690F9731028B28B002FD283 /* triggers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triggers.h; sourceTree = "<group>"; };
 		6690F9751028B2C9002FD283 /* functor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functor.h; sourceTree = "<group>"; };
+		66C588AA19583666002F2880 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		66C588AB19583666002F2880 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		66C588AC19583666002F2880 /* Icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon~iphone.png"; path = "Resources/Icon~iphone.png"; sourceTree = "<group>"; };
 		66CA6E6A1055C656009B544A /* collision_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collision_util.h; sourceTree = "<group>"; };
 		66CA6E6B1055C656009B544A /* submenuepisodeselectionstate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = submenuepisodeselectionstate.mm; sourceTree = "<group>"; };
 		66CA6E6C1055C656009B544A /* submenuepisodeselectionstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = submenuepisodeselectionstate.h; sourceTree = "<group>"; };
@@ -867,6 +877,13 @@
 		66DA85691020CEA400F103EF /* episode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = episode.h; sourceTree = "<group>"; };
 		66F05A30103DE42600A80948 /* hud.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hud.mm; sourceTree = "<group>"; };
 		66F05A31103DE42600A80948 /* hud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hud.h; sourceTree = "<group>"; };
+		66F7A3CB1957984800229CE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		66F7A3CD1957986000229CE7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		66F7A3CF1957988900229CE7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
+		66F7A3D01957988900229CE7 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		66F7A3D11957988900229CE7 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		66F7A3D21957988900229CE7 /* Icon@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x~iphone.png"; path = "Resources/Icon@2x~iphone.png"; sourceTree = "<group>"; };
+		66F7A3D31957988900229CE7 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -927,10 +944,19 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				66C588AA19583666002F2880 /* Default-568h@2x.png */,
+				66C588AB19583666002F2880 /* Default@2x.png */,
+				66C588AC19583666002F2880 /* Icon~iphone.png */,
+				66F7A3CF1957988900229CE7 /* Icon-72.png */,
+				66F7A3D01957988900229CE7 /* Icon-Small-50.png */,
+				66F7A3D11957988900229CE7 /* Icon-Small.png */,
+				66F7A3D21957988900229CE7 /* Icon@2x~iphone.png */,
+				66F7A3D31957988900229CE7 /* iTunesArtwork */,
+				66F7A3CD1957986000229CE7 /* Icon@2x.png */,
+				66F7A3CB1957984800229CE7 /* Icon.png */,
 				66375BAD1167F36700C4E7DB /* Default.png */,
 				66375BAE1167F36700C4E7DB /* Entitlements.plist */,
 				66375BAF1167F36700C4E7DB /* highscores.xib */,
-				66375BB01167F36700C4E7DB /* Icono_full_57.png */,
 				66375BB11167F36700C4E7DB /* MainWindow.xib */,
 				66375BB21167F36700C4E7DB /* Ozone-Info.plist */,
 				66375BB31167F36700C4E7DB /* scores.png */,
@@ -1712,9 +1738,21 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = V3F66RFMSJ;
+					};
+				};
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ozone" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1730,19 +1768,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				664055391019246E0007BEF0 /* fonts in Resources */,
+				66C588AD19583666002F2880 /* Default-568h@2x.png in Resources */,
 				6640553A1019246E0007BEF0 /* game in Resources */,
+				66F7A3D71957988900229CE7 /* Icon@2x~iphone.png in Resources */,
+				66F7A3D81957988900229CE7 /* iTunesArtwork in Resources */,
 				6640553B1019246E0007BEF0 /* logo in Resources */,
+				66C588AE19583666002F2880 /* Default@2x.png in Resources */,
 				6640553C1019246E0007BEF0 /* menu in Resources */,
+				66F7A3CE1957986000229CE7 /* Icon@2x.png in Resources */,
 				6640553D1019246E0007BEF0 /* missing_texture.png in Resources */,
 				6669D0AE1120A52800C86312 /* missing_model.png in Resources */,
 				6669D0B01120A53500C86312 /* 7x7.o3d in Resources */,
+				66F7A3D61957988900229CE7 /* Icon-Small.png in Resources */,
 				66375BB41167F36700C4E7DB /* Default.png in Resources */,
 				66375BB51167F36700C4E7DB /* Entitlements.plist in Resources */,
 				66375BB61167F36700C4E7DB /* highscores.xib in Resources */,
-				66375BB71167F36700C4E7DB /* Icono_full_57.png in Resources */,
+				66F7A3D51957988900229CE7 /* Icon-Small-50.png in Resources */,
 				66375BB81167F36700C4E7DB /* MainWindow.xib in Resources */,
-				66375BB91167F36700C4E7DB /* Ozone-Info.plist in Resources */,
+				66F7A3D41957988900229CE7 /* Icon-72.png in Resources */,
+				66F7A3CC1957984800229CE7 /* Icon.png in Resources */,
 				66375BBA1167F36700C4E7DB /* scores.png in Resources */,
+				66C588AF19583666002F2880 /* Icon~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2006,21 +2052,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Ozone_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Resources/Ozone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Ozone;
-				SDKROOT = iphoneos3.0;
+				PROVISIONING_PROFILE = "00B1697D-C67A-472A-895F-54ADC08BD0B1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2028,27 +2077,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Ozone_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Resources/Ozone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Ozone;
-				SDKROOT = iphoneos3.0;
+				PROVISIONING_PROFILE = "00B1697D-C67A-472A-895F-54ADC08BD0B1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		66BC31E010A8C2BA00F98FFF /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ignacio Sánchez Ginés";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ignacio Sanchez Gines (V3F66RFMSJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ignacio Sanchez Gines (V3F66RFMSJ)";
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -2071,15 +2124,13 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = Classes/Ozone/physics;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"--fast-math",
-					"-fno-regmove",
-					"-ftree-vectorize",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-ftree-vectorize";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E10E4EED-E09F-4176-AC32-D944B6BAD4BB";
-				SDKROOT = iphonesimulator3.0;
+				PROVISIONING_PROFILE = "516FA988-190E-447A-ADA5-141CE6BBD878";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "516FA988-190E-447A-ADA5-141CE6BBD878";
+				SDKROOT = iphoneos;
 			};
 			name = Distribution;
 		};
@@ -2087,28 +2138,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Ozone_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Resources/Ozone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Ozone;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Distribution;
 		};
 		66BC31E210A8C2C400F98FFF /* Distribution Adhoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = Resources/Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ignacio Sánchez Ginés";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -2131,15 +2185,12 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = Classes/Ozone/physics;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"--fast-math",
-					"-fno-regmove",
-					"-ftree-vectorize",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-ftree-vectorize";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9A23137B-31F8-4C2C-9098-30D775BB2901";
-				SDKROOT = iphonesimulator3.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 			};
 			name = "Distribution Adhoc";
 		};
@@ -2147,19 +2198,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Ozone_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Resources/Ozone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Ozone;
-				SDKROOT = iphoneos3.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Distribution Adhoc";
 		};
@@ -2167,10 +2221,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sanchez Gines (C63KZNC7EL)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
@@ -2188,19 +2243,21 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = Classes/Ozone/physics;
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8B123AC2-3152-4E78-8ADB-962F7C38F1D9";
-				SDKROOT = iphonesimulator3.0;
+				PROVISIONING_PROFILE = "F5537DEB-A5D9-4EB2-9403-A979DE288427";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5537DEB-A5D9-4EB2-9403-A979DE288427";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sánchez Ginés (C63KZNC7EL)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ignacio Sanchez Gines (C63KZNC7EL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ignacio Sanchez Gines (C63KZNC7EL)";
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -2208,7 +2265,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = GEARDOME_WE_ARE_IN_RELEASE;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_UNROLL_LOOPS = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
@@ -2224,15 +2281,13 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = Classes/Ozone/physics;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"--fast-math",
-					"-fno-regmove",
-					"-ftree-vectorize",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-ftree-vectorize";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8B123AC2-3152-4E78-8ADB-962F7C38F1D9";
-				SDKROOT = iphonesimulator3.0;
+				PROVISIONING_PROFILE = "F5537DEB-A5D9-4EB2-9403-A979DE288427";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5537DEB-A5D9-4EB2-9403-A979DE288427";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
