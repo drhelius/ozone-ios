@@ -31,6 +31,8 @@
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 
+#define GEARDOME_WE_ARE_IN_RELEASE
+
 #ifndef GEARDOME_WE_ARE_IN_RELEASE
 #define DEBUG_OZONE 1
 //#define DEBUG_OZONE_ONLY_ERRORS 1
