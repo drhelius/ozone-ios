@@ -19,13 +19,13 @@
  not be misrepresented as being the original software.
  
  3. This notice may not be removed or altered from any source distribution.
-*/
+ */
 
 #ifndef __NEON_MATRIX_IMPL_H__
 #define __NEON_MATRIX_IMPL_H__
 
 #ifdef __arm__
-#include "arm/arch.h"
+#import "arm/arch.h"
 #endif
 
 // Matrixes are assumed to be stored in column major format according to OpenGL
